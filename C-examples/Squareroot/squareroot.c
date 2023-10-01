@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
+// Bu örnekte girilen sayının karekökünün tam sayı olup olmadığı ve karekökünü buluyoruz.
+
 int main()
 {
     int number;

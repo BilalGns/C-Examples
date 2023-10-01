@@ -10,7 +10,7 @@ int main()
     printf("Pozitif bir sayi girin :");
     scanf("%d", &number);
 
-    if (number < 0)
+    if (number < 0)  
     {
         printf("Hatali bir sayi girdiniz...");
     }

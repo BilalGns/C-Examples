@@ -6,6 +6,7 @@ int main()
 
     float toplam = 0;
     float not = 0;
+    float ortalama = 0;
     int i = 1;
 
     do
@@ -33,8 +34,10 @@ int main()
 
     } while (not != 0);
 
+    ortalama = toplam / (i - 1);
+
     printf("\n%d adet not girildi.\n", (i - 1));
-    printf("not ortalamasi = %.2f ", toplam / (i - 1));
+    printf("not ortalamasi = %.2f ", ortalama);
 
     return 0;
 }

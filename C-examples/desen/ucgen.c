@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int number;
+
+    printf("Bir sayi girin : ");
+    scanf("%d", &number);
+
+    for (int i = 1; i <= number; i++)
+    {
+
+        for (int s = number; s >= i; s--)
+        {
+            printf(" ");
+        }
+
+        for (int j = 1; j <= i; j++)
+        {
+
+            printf("# ");
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}

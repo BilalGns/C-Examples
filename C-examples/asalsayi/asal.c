@@ -5,6 +5,7 @@ int main()
 {
     int number = 0;           
     int i = 2;
+    
 
     printf("Pozitif bir sayi girin\n");
     scanf("%d", &number);
@@ -12,6 +13,7 @@ int main()
     if (number <= 1)
     {
         printf("Negatif sayilar , 0 ve 1 asal degildir.");
+        return 0;
     }
 
     else    

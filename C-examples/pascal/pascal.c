@@ -29,7 +29,7 @@ int main()
                 cikti = cikti * (i - a + 1) / a;
             }
 
-            printf("%5d", cikti);
+            printf("%4d", cikti);
         }
         printf("\n");
     }

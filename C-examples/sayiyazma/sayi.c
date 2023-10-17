@@ -21,9 +21,12 @@ int main()
             birlik(a4);
             printf(" Bin ");
         }
-        if (a3 != 0)
+        if (a3 != 1)
         {
             birlik(a3);
+        }
+        if (a3 != 0)
+        {            
             printf(" Yuz ");
         }
         onluk(a2);

@@ -11,7 +11,7 @@ int main()
 
     for (int i = 1; i <= number; i++)
     {
-        faktoriyel *= i; //?  faktoriyel = faktoriyel * 2;
+        faktoriyel *= i; //?  faktoriyel = faktoriyel * i;
     }
 
     printf("%d! = %d", number, faktoriyel);

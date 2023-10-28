@@ -23,7 +23,7 @@ int main()
 
     if (EBOB != 0)
     {
-        EKOK = (x / EBOB) * (y / EBOB) * EBOB;
+        EKOK = (x / EBOB) * (y / EBOB) * EBOB; //! Yerine (x * y *EBOB) yazabilirdik ikiside aynı ifadedir.
         printf("EBOB (%d , %d) = %d\n", x, y, EBOB);
         printf("EKOK (%d , %d) = %d", x, y, EKOK);
     }

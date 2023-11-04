@@ -5,7 +5,7 @@ int main()
 {
     char list[50];
     int sayi = 0;
-
+                        // Github : BilalGns
     printf("Bir metin girin : ");
     gets(list); //? scanf ile tutsaydık boşluk ile karşılaşınca sonrasını almazdı.
 
